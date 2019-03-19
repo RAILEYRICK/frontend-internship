@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <form action="#">
+    <h1>Введите личные данные</h1>
+    <h2>Личная информация</h2>
+    <div class="inputs">
+      <label for="name">Имя*</label>
+      <input type="text" id="name" required>
+    </div>
+    <div class="inputs">
+      <label for="phone-number">Номер телефона*</label>
+      <input type="tel" id="phone-number" required minlength="11" maxlength="18">
+    </div>
+    <div class="inputs">
+      <label for="email">Email*</label>
+      <input type="email" id="email" required>
+    </div>
+
+    <label>Город</label>
+    <select>
+      <option>Выберите город</option>
+      <option value="Москва">Москва</option>
+      <option value="Краснодар">Краснодар</option>
+      <option value="Казань">Казань</option>
+      <option value="Екатеринбург">Екатеринбург</option>
+    </select>
+    <h2>Информация о семье</h2>
+    <label>Семейное положение</label>
+    <label>
+      <input type="radio" name="status">
+      Состою в браке
+    </label>
+    <label>
+      <input type="radio" name="status">
+      Не состою в браке
+    </label>
+    <label>Дети</label>
+    <label>
+      <input type="radio" name="children">
+      Есть дети
+    </label>
+    <label>
+      <input type="radio" name="children">
+      Нет детей
+    </label>
+    <h2>Дополнительная информация</h2>
+    <label>Выберите интересные для вас темы</label>
+    <div class="checkbox-left">
+    <label>
+      <input type="checkbox" name="hobbies">
+      Музыка
+    </label>
+    <label>
+      <input type="checkbox" name="hobbies">
+      Кино
+    </label>
+    <label>
+      <input type="checkbox" name="hobbies">
+      Спорт
+    </label>
+    <label>
+      <input type="checkbox" name="hobbies">
+      Политика
+    </label>
+    <label>
+      <input type="checkbox" name="hobbies">
+      Животные
+    </label>
+    <label>
+      <input type="checkbox" name="hobbies">
+      Еда
+    </label>
+    </div>
+    <div class="button">
+      <button type="submit">Send feedback</button>
+    </div>
+  </form>
+</body>
+</html>

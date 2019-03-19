@@ -1,0 +1,62 @@
+
+body {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #b0bea9;
+  color: #586540;
+}
+
+h1 h2 {
+  padding-top: 10px;
+}
+
+form {
+  display: inline-block;
+  padding: 25px;
+  width: 50%;
+  text-align: left;
+  background-color: #f1f7ee;
+}
+
+label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+select{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #586540;
+  border-radius: 3px;
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #b0bea9;
+  padding: 10px 30px;
+  border-radius: 4px;
+  color: #586540;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inputs input {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #586540;
+  border-radius: 3px;
+}
+
+.inputs {
+  margin: 10px 0;
+}
+
+.checkbox-left {
+  columns: 2;
+}
