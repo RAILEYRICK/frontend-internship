@@ -1,0 +1,13 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="200" height="200"
+     xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100">
+
+     <rect x="35" y="25" rx="10" ry="10" width="40" height="40" stroke="black" fill="transparent" stroke-width="1"/>
+
+     <polygon points="55 30, 58 40, 65 40, 58 45, 62 55, 55 48, 50 55, 52 45, 45 40, 52 40"
+      stroke="black" fill="transparent" stroke-width="1"/>
+</svg>
+
+<!--Максимально кривая авторская звезда-->
