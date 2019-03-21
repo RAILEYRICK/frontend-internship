@@ -1,14 +1,9 @@
-
 body {
   text-align: center;
   padding: 15px;
   font-family: 'Roboto', sans-serif;
   background-color: #b0bea9;
   color: #586540;
-}
-
-h1 h2 {
-  padding-top: 10px;
 }
 
 form {
@@ -19,10 +14,20 @@ form {
   background-color: #f1f7ee;
 }
 
+fieldset {
+  text-align: left;
+  border: 0;
+}
+
+
+legend {
+  font-size: 20px;
+}
+
 label {
   font-size: 14px;
   display: block;
-  margin-bottom: 8px;
+  margin: 10px 0;
 }
 
 select{
@@ -39,24 +44,33 @@ button {
   padding: 10px 30px;
   border-radius: 4px;
   color: #586540;
+  margin: auto;
 }
 
-.button {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.inputs input {
+input {
   width: 50%;
   padding: 5px;
   border: 1px solid #586540;
   border-radius: 3px;
 }
 
-.inputs {
-  margin: 10px 0;
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
 }
 
-.checkbox-left {
+
+.checkbox-columns {
   columns: 2;
+}
+
+#main-title {
+  font-size: 30px;
+}
+
+input:invalid {
+  box-shadow: none;
+  border-color: #f2463a;
+}
+input:valid {
+  border-color: #586540;
 }
