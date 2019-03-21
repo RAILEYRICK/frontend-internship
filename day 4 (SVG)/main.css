@@ -1,9 +1,18 @@
 html,body,svg { height:100% }
 
-@keyframes circle {
+svg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 2em auto;
+}
+
+@keyframes scale {
   from {r: 0px} to {r: 150px}
 }
 
-#slowClip circle {
-  animation: circle 15s infinite;
+a#light:hover #lightbulb {
+  fill: white;
+  transform-origin: 100px 100px;
+  animation: scale 15s infinite;
 }
