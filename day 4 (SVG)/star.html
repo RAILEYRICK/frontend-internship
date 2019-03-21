@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SVG Animation</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <svg viewBox="0 0 140 130" xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="slowClip">
+      <circle cx="40" cy="35" r="35" />
+    </clipPath>
+    <polygon id="star" points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"
+              stroke="lightseagreen" stroke-opacity="0.2"/>
+    <use clip-path="url(#slowClip)" xlink:href="#star" fill="#586540"/>
+  </svg>
+</body>
+</html>
+
+<!--Задание не доделанное, но хочется все таки узнать как это работает )))))-->

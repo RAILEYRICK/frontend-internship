@@ -1,0 +1,9 @@
+html,body,svg { height:100% }
+
+@keyframes circle {
+  from {r: 0px} to {r: 150px}
+}
+
+#slowClip circle {
+  animation: circle 15s infinite;
+}
