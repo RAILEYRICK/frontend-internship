@@ -8,7 +8,10 @@
 </head>
 <body>
   <header>
-    <h2><span>E</span>aten berry</h2>
+    <nav>
+
+    </nav>
+    <h2>Eaten berry</h2>
     <p>and go for a walk</p>
     <h3>Today good weather</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sunt, laborum laudantium
@@ -28,42 +31,14 @@
   </header>
 
   <main>
-    <article>
       <ul>  <!--Не посчитал нужным оборачивать в дополнительный семантический блок, но если он все таки был нужен, с удовольствием узнаю и запомню это-->
         <li><a href="#">Home /</a></li>
         <li><a href="#">Another page /</a></li>
         <li><a href="#">This page</a></li>
       </ul>
 
-      <section> <!--Форму и следующий блок Headline обернул в section, а не в aside, потому они довольно важная смысловая составляющая страницы-->
-        <form action="#" id="data">
-          <h3><b>Contact us</b></h3>
-          <input type="text" placeholder="Your name">
-          <input type="datetime" placeholder="Daytime Number">
-          <input type="email" placeholder="Email Adress">
-          <input type="text" placeholder="City">
-          <select>
-            <option>Lorem ipsum.</option>
-            <option>Lorem ipsum.</option>
-            <option>Lorem ipsum.</option>
-          </select>
-          <select type>
-            <option>Lorem ipsum.</option>
-            <option>Lorem ipsum.</option>
-            <option>Lorem ipsum.</option>
-          </select>
-          <button type="submit" form="data">Lorem ipsum dolor</button>
-        </form>
-      </section>
-
       <section>
-        <h3>Headline</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias, culpa quisquam! Iure optio accusantium deserunt tempore quia, corporis. Accusamus.</p>
-        <p><a href="#">More about</a></p>
-      </section>
-
-      <section>
-        <h2><span>W</span>hat we do...</h2>
+        <h2>What we do...</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere natus in aliquam, corrupti dicta quisquam error illo sint ducimus neque consequuntur architecto optio
           suscipit tempore omnis, velit <span>atque tenetur, corporis quas</span> inventore sapiente. Sapiente laborum ipsa a ea possimus mollitia! Incidunt atque, esse dolore unde aspernatur
           quod sapiente dicta a.</p>
@@ -84,61 +59,62 @@
       </section>
 
       <section>
-        <h2><span>L</span>ists</h2>
-        <div>
-          <p>List style type circle <span>&lt ul &gt</span></p> <!--span для background(а) либо можно использовать "mark"-->
-          <ul>
-            <li>Lorem ipsum dolor.</li>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum dolor</li>
-            <li>
-              Lorem ipsum dolor
-              <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-              </ul>
-            </li>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum dolor</li>
-          </ul>
-        </div>
-        <div>
-          <p>Unstyled <span>&lt ul class="unstyled" &gt</span></p>
-          <p>Lorem ipsum dolor.</p>
-          <p>Lorem ipsum dolor.</p>
-          <p>Lorem ipsum dolor.</p>
-          <ul>
-            <li>Lorem ipsum dolor sit1</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit3</li>
-          </ul>
-          <p>Lorem ipsum dolor.</p>
-          <p>Lorem ipsum dolor.</p>
-        </div>
-        <div>
-          <p>Ordered <span>&lt ol &gt</span></p>
-          <ol>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-          </ol>
-        </div>
+        <h2>Lists</h2>
+
+        <p>List style type circle <span>&lt ul &gt</span></p> <!--span для background(а) либо можно использовать "mark"-->
+        <ul>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+          <li>
+            Lorem ipsum dolor
+            <ul>
+              <li>lorem</li>
+              <li>lorem</li>
+              <li>lorem</li>
+            </ul>
+          </li>
+          <li>Lorem ipsum dolor</li>
+          <li>Lorem ipsum dolor</li>
+        </ul>
+
+        <p>Unstyled <span>&lt ul class="unstyled" &gt</span></p>
+        <ul>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum dolor.</li>
+            <ul>
+              <li>Lorem ipsum dolor sit1</li>
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor sit3</li>
+            </ul>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum dolor.</li>
+        </ul>
+
+        <p>Ordered <span>&lt ol &gt</span></p>
+        <ol>
+          <li>Lorem ipsum dolor sit</li>
+          <li>Lorem ipsum dolor sit</li>
+          <li>Lorem ipsum dolor sit</li>
+          <li>Lorem ipsum dolor sit</li>
+          <li>Lorem ipsum dolor sit</li>
+          <li>Lorem ipsum dolor sit</li>
+        </ol>
       </section>
 
       <section>
-        <h2><span>T</span>able</h2>
+        <h2>Table</h2>
         <table border="1">
-          <tr>
-            <td>№</td>
-            <td>Toranton rate</td>
-            <td>Puranocak var berond</td>
-            <td>Intime modular to cavan</td>
-            <td>Language</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>№</th>
+              <th>Toranton rate</th>
+              <th>Puranocak var berond</th>
+              <th>Intime modular to cavan</th>
+              <th>Language</th>
+            </tr>
+          </thead>
           <tr>
             <td>1</td>
             <td>Lorem ipsum.</td>
@@ -190,47 +166,87 @@
           </tr>
         </table>
       </section>
-    </article>
   </main>
 
-  <footer>
-    <div>
-      <h2><span>C</span>herry Hours</h2>
-      <hr>
-      <p>We are open 24/7</p>
-      <ul>  <!--li:before {content: "символ часиков"}-->
-        <li>Nights! Absolutely No Extra Charge</li>
-        <li>Weekends! Absolutely No Extra Charge</li>
-        <li>Holidays! Absolutely No Extra Charge</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Local <span>C</span>herry</h2>
-      <hr>
-      <ul>
-        <li>West Hollywood (323) 221-1107</li>
-        <li>Beverly Hills (310) 202-5428</li>
-        <li>Pasadena (626) 296-2664</li>
-        <li>West Hills (805) 531-5083</li>
-        <li>Los Angeles (213) 389-4381</li>
-        <p><b>Call Us Toll Free 1-800-287-0919</b></p>
-      </ul>
-    </div>
-    <div>
-      <h2>Our Los Angeles Location</h2>
-      <hr>
-      <p>Steve Smith</p>
-      <p>Hi-Tech Cherry Company</p>
-      <p><a href="#">info@cherrycompany.com</a></p>
-      <address>
-        <p>5104 W. Washington Blvd</p>
-      </address>
-      <address>
-        <p>Los Angeles , CA , 90016 United States</p>
-      </address>
-      <p>(800) 287-0919</p>
-    </div>
-  </footer>
+  <aside>   <!--Думаю,что в данном случае лучше разбить на два aside или обернуть два блока одним, но тогда каждый обернуть в div-->
+    <form action="#" id="data" method="post">
+      <h3><b>Contact us</b></h3>
+      <input type="text" placeholder="Your name">
+      <input type="datetime" placeholder="Daytime Number">
+      <input type="email" placeholder="Email Adress">
+      <input type="text" placeholder="City">
+      <select>
+        <option>Lorem ipsum.</option>
+        <option>Lorem ipsum.</option>
+        <option>Lorem ipsum.</option>
+      </select>
+      <select>
+        <option>Lorem ipsum.</option>
+        <option>Lorem ipsum.</option>
+        <option>Lorem ipsum.</option>
+      </select>
+      <button type="submit" form="data">Lorem ipsum dolor</button>
+    </form>
+  </aside>
+  <aside>
+    <h3>Headline</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias, culpa quisquam! Iure optio accusantium deserunt tempore quia, corporis. Accusamus.</p>
+    <p><a href="#">More about</a></p>
+  </aside>
 
+  <footer>
+
+    <h2>Cherry Hours</h2>
+    <hr>
+    <dl>
+      <dt>We are open 24/7</dt>
+        <dd>Nights! Absolutely No Extra Charge</dd>
+        <dd>Weekends! Absolutely No Extra Charge</dd>
+        <dd>Holidays! Absolutely No Extra Charge</dd>
+    </dl>
+    <p>Мы в социальных сетях:</p>
+    <ul>
+      <li><a href="#">f</a></li>
+      <li><a href="#">t</a></li>
+      <li><a href="#">B</a></li>
+    </ul>
+  <!--  <dl>
+      <dd>West Hollywood <a href="#">(323) 221-1107</dd>
+      <dd>Beverly Hills <a href="#">(310) 202-5428</a></dd>
+      <dd>Pasadena <a href="#">(626) 296-2664</a></dd>
+      <dd>West Hills <a href="#">(805) 531-5083</a></dd>
+      <dd>Los Angeles <a href="#">(213) 389-4381</a></dd>
+    </dl>
+    <p><b>Call Us Toll Free <a href="#">1-800-287-0919</a></b></p>-->
+    <h2>Local Cherry</h2>
+    <hr>
+    <ul>   <!--этот вариант мне нравится больше -->
+      <li>West Hollywood <a href="#">(323) 221-1107</a></li>
+      <li>Beverly Hills <a href="#">(310) 202-5428</a></li>
+      <li>Pasadena <a href="#">(626) 296-2664</a></li>
+      <li>West Hills <a href="#">(805) 531-5083</a></li>
+      <li>Los Angeles <a href="#">(213) 389-4381</a></li>
+    </ul>
+    <p><b>Call Us Toll Free <a href="#">1-800-287-0919</a></b></p>
+
+    <h2>Our Los Angeles Location</h2>
+    <hr>
+    <ul>
+      <li>Steve Smith</li>
+      <li>Hi-Tech Cherry Company</li>
+      <li><a href="#">info@cherrycompany.com</a></li>
+      <li>
+        <address>
+          <p>5104 W. Washington Blvd</p>
+        </address>
+      </li>
+      <li>
+        <address>
+          <p>Los Angeles , CA , 90016 United States</p>
+        </address>
+      </li>
+      <li><a href="#">(800) 287-0919</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
