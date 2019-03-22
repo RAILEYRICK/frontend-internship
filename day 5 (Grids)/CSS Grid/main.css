@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+.cell {
+  border: 1px solid black;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: start;
+}
+.one {  /*Introduction*/
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.two { /*Actions*/
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.three { /*Related Stuff*/
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.four { /*Additional Information*/
+  grid-column: 1 / 3 ;
+  grid-row: 2 / 3;
+}
