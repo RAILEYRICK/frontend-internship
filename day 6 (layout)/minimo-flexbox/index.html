@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Minimo</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>  <!--Текст который должен быть капсом, оставил обычным, т.к. есть uppercase-->
+    <a href="#" class="navbar-logo"><img src="#" alt="Logo Minimo"></a> <!--Сменил блок для иконки логотипа-->
+    <nav>
+      <ul class="main-menu"> <!--Добавил ссылки-->
+        <li><a href="#">lifestyle</a></li>
+        <li><a href="#">photodiary</a></li>
+        <li><a href="#">music</a></li>
+        <li><a href="#">travel</a></li>
+      </ul>
+    </nav>
+  </header>
+  <img src="#" alt="Two girls in desert" class="header_picture">
+
+  <main>
+    <article> <!--Section убран    ,  большая картинка теперь в основном блоке, а не в хедере-->
+      <p>Photodiary</p>
+      <h1>The perfect weekend getaway</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla perferendis vel qui dolorum.
+         Commodi necessitatibus deleniti est quasi, in laborum, libero excepturi voluptas neque facilis
+         quam ea maiores? Praesentium, quos?
+      </p>
+      <img src="#" alt="girl in desert 1" class="girls__desert">
+      <img src="#" alt="girl in desert 2" class="girls__desert">
+      <img src="#" alt="girl in desert 3" class="girls__desert">
+      <blockquote>
+        <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, error quisquam itaque
+           architecto natus beatae ab doloremque minus ut fugit consequatur minima cum inventore voluptatum
+           harum quis, magnam earum ducimus."</em></p>
+      </blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla perferendis vel qui dolorum.
+        Commodi necessitatibus deleniti est quasi, in laborum, libero excepturi voluptas neque facilis
+        quam ea maiores? Praesentium, quos?
+      </p>
+
+      <p>Share</p>
+      <ul> <!--Список соц сетей. В дальнейшем добавить стили: убрать маркировку, сделать инлайновым. Возможно заменить на тег <button>-->
+        <li><span class="social-network">F<span></li>
+        <li><span class="social-network">T<span></li>
+        <li><span class="social-network">g<span></li>
+        <li><span class="social-network">t<span></li>
+        <li><span class="social-network">@<span></li>
+      </ul>
+    </article>
+
+    <section class="first__section"> <!--Я думаю, что в данном случае лучше использовать div для каждой пары картинка-текст-->
+      <p class="hidden__p">You may also like</p>
+      <div class="gallery">
+        <img src="#" alt="Road">
+        <p>Cold winter days</p>
+      </div>
+      <div class=gallery"">
+        <img src="#" alt="Guy">
+        <p>A day exploring the Alps</p>
+      </div>
+      <div class="gallery">
+        <img src="#" alt="Two girls">
+        <p>American dream</p>
+      </div>
+    </section>
+
+    <section class="second__section"> <!--Comments-->
+      <p>#2 comments</p>
+      <ul>
+        <li class="comment__section">
+          <img src="" alt="">
+          <p>Name</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita veritatis voluptas, beatae explicabo repudiandae odit incidunt facere facilis quasi,
+           praesentium esse debitis aut nobis, vel perferendis dolorum quia quis laboriosam.
+           </p>
+           <p>Reply</p></li>
+        <li class="comment__section">
+          <img src="" alt="">
+          <p>Name</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita veritatis voluptas, beatae explicabo repudiandae odit incidunt facere facilis quasi,
+             praesentium esse debitis aut nobis, vel perferendis dolorum quia quis laboriosam.
+           </p>
+           <p>Reply</p>
+        </li>
+        <li class="comment__section">
+          <img src="" alt="">
+          <form action="#" method="post">
+            <input type="text" placeholder="join the discussion">  <!--Обернул input в форму-->
+          </form>
+        </li>
+      </ul>
+      <p>Connected with</p>
+      <ul>
+        <li><span class="social-network">T</span></li>
+        <li><span class="social-network">F</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <aside> <!--Стоит ли оборачивать элементы aside в section?-->
+    <p><img src="#" alt=""></p>
+    <h1>About me</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam excepturi accusantium, </p>
+    <ul>
+      <li><span class="social-network">F</span></li>
+      <li><span class="social-network">T</span></li>
+      <li><span class="social-network">I</span></li>
+    </ul>
+
+    <p>Top posts</p>
+    <ul>
+      <li>
+        <p>A day exploring the Alps</p>
+        <p>24 comments</p>
+      </li>
+      <li>
+        <p>American dream</p>
+        <p>19 comments</p>
+      </li>
+      <li>
+        <p>Cold winter days</p>
+        <p>15 comments</p>
+      </li>
+    </ul>
+    <img src="#" alt="250x250">
+  </aside>
+
+  <footer>
+      <ul>
+        <li>Terms and conditions</li>
+        <li>Privacy</li>
+      </ul>
+      <p>Follow</p>
+      <ul>
+        <li><span class="social-network">F</span></li>
+        <li><span class="social-network">T</span></li>
+        <li><span class="social-network">I</span></li>
+      </ul>
+  </footer>
+</body>
+</html>

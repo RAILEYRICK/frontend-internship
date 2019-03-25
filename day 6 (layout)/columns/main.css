@@ -1,0 +1,60 @@
+body {
+  text-transform: uppercase;
+  text-align: center;
+  columns: auto 3;
+}
+
+.kostil {
+  columns: auto 2;
+  width: 66.6666%;
+}
+.empty {
+  column-span: all;
+  width: 0;
+}
+
+body > * {
+  margin: 5px;
+}
+
+header {
+  column-span: all;
+  background-color: #6C8CD5;
+}
+
+nav {
+  column-span: all;
+  background-color: #E40045;
+}
+
+main {
+  column-span: all;
+  break-inside:avoid;
+  break-before: column;
+  break-after: column;
+  height: 300px;
+  background-color: #009999;
+  break-before: always;
+}
+
+article {
+  height: 100px;
+  margin: 0 10px;
+  background-color: #BC2F36;
+}
+
+aside {
+  column: 1;
+  height: 100%;
+  background-color: #E3FB71;
+}
+
+footer {
+  column-span: all;
+  background-color: #FF6A00;
+}
+
+@media all and (max-width: 600px) {
+  main {}
+  aside {}
+}

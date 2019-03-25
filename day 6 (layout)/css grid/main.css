@@ -1,0 +1,45 @@
+body {
+  text-transform: uppercase;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+body > * {
+  margin: 5px;
+}
+
+header {
+  grid-column: 1 / 3;
+  background-color: #6C8CD5;
+}
+
+nav {
+  grid-column: 1 / 3;
+  background-color: #E40045;
+}
+
+main {
+  height: 300px;
+  background-color: #009999;
+}
+
+article {
+  height: 100px;
+  margin: 0 10px;
+  background-color: #BC2F36;
+}
+
+aside {
+  height: auto;
+  background-color: #E3FB71;
+}
+
+footer {
+  grid-column: 1 / 3;
+  background-color: #FF6A00;
+}
+
+@media all and (max-width: 600px) {
+  main {grid-column: 1 / 3}
+  aside {grid-column: 1 / 3}
+}

@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+body > * {
+  border: 1px solid #000;
+}
+
+header {
+  flex: 1 100%;
+}
+
+main {
+  flex: 3;
+  margin: 0 50px;
+}
+
+article {
+  border: 1px solid #000;
+}
+
+section {
+  border: 1px solid #000;
+}
+
+aside {
+  flex: 1;
+  width: 100%;
+}
+
+
+footer {
+  flex: 1 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 9px;
+}
+
+ul li{
+  display: inline;
+}
+
+.navbar-logo{
+  display: inline-block;
+}
+
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.main-menu li {
+  display: inline-block;
+}
+
+.header_picture {
+  flex: 1 100%;
+  height: 300px;
+}
+
+.girls__desert {
+  width: 100%;
+}
+
+.first__section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.hidden__p {
+  flex: 1 100%;
+}
+
+.gallery {
+  flex: 1fr;
+}
+
+.second__section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.second__section p {
+  flex: 1 100%;
+}
+
+.comment__section {
+  flex: 1 100%;
+}
