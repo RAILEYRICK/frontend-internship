@@ -1,16 +1,8 @@
 body {
   text-transform: uppercase;
   text-align: center;
-  columns: auto 3;
-}
-
-.kostil {
   columns: auto 2;
-  width: 66.6666%;
-}
-.empty {
-  column-span: all;
-  width: 0;
+  height: 100%;
 }
 
 body > * {
@@ -28,7 +20,7 @@ nav {
 }
 
 main {
-  column-span: all;
+  width: 150%;
   break-inside:avoid;
   break-before: column;
   break-after: column;
@@ -41,11 +33,11 @@ article {
   height: 100px;
   margin: 0 10px;
   background-color: #BC2F36;
+  border: 1px solid #000;
 }
 
-aside {
-  column: 1;
-  height: 100%;
+aside {  /* тут костыль очередной с высотой, если подскажешь, как надо было правильно сделать большое спасибо) */
+  height: 18em;
   background-color: #E3FB71;
 }
 
@@ -54,7 +46,29 @@ footer {
   background-color: #FF6A00;
 }
 
+aside p {
+  margin: 0;
+}
+
+main p {
+  margin: 0;
+}
+
+.kostil {
+  margin-left: 50%;
+}
+
 @media all and (max-width: 600px) {
-  main {}
-  aside {}
+  body > * {
+    margin: 0;
+  }
+  main {
+    width: 100%;
+    column-span: all;
+  }
+  aside {
+    width: 100%;
+    column-span: all;
+    height: 100%;
+  }
 }
