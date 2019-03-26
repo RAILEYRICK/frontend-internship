@@ -3,7 +3,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
-  flex: 1 100%;
 }
 body > * {
   margin: 5px;
@@ -20,7 +19,7 @@ nav {
 }
 
 main {
-  flex: 1;
+  flex: 2;
   height: 300px;
   background-color: #009999;
 }
