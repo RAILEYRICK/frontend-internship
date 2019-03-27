@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header>
+
+  <header> <!--Весь блок поместил в header, потому что думаю, что структура этого контента не будет координально меняться -->
     <div class="sticky">  <!--Не думаю, что section подходит в данном случае, поэтому div -->
       <a href="#" id="logo">Media</a>
       <nav>
@@ -19,7 +20,7 @@
       </nav>
     </div>
 
-    <div class="clear"></div>
+    <div class="clear"></div> <!--Очистка "любимого" float. Следующий макет сверстаю навигацию на flexbox, понял, как это делается--> 
 
     <section class="header">   <!--Подумал, что нет смысла оборачивать в div, если можно в данном случае использовать section. И так же со следующими section -->
       <p>livestyle</p>

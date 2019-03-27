@@ -7,7 +7,7 @@ body {
   margin: 0 50px;
 }
 
-body, main {
+body, main {      /**  можешь потом написать пожалуйста, как правильно сделать эту вложенность элементов (надеюсь сформулирую адекватно и напишу)*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -86,6 +86,12 @@ article {
   grid-column: 2 / 4;
 }
 
+/*
+.img {
+background-image: url(/...);
+}
+*/
+
 #button-load {
   grid-column: 1 / 4;
   height: 40px;
@@ -101,7 +107,7 @@ article {
 
 /* Footer */
 
-footer {
+footer {  /* Обещаю на выходных сверстать header и footer на flexbox! */
   grid-column: 1 / 4;
   padding: 50px;
 }
@@ -115,7 +121,7 @@ ul li {
   display: inline;
 }
 
-cite {
+cite {   /* Почитал по cite, думаю подходит для этого случая*/
   display: block;
   float: left;
 }
@@ -185,4 +191,4 @@ cite {
 }
 /*************************/
 
-/* пока остановился на этих вариантах*/ 
+/* пока остановился на этих вариантах, хотел сделать еще с кнопками zooming*/
